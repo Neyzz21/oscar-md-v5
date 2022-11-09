@@ -47,7 +47,7 @@ module.exports = {
         case 'imageMessage':
         case 'videoMessage':
         case 'audioMessage':
-          if (!m.key.fromMe) true
+          if (!m.key.fromMe) 
           if (!m.msg.url) await this.updateMediaMessage(m)
           break
       }
